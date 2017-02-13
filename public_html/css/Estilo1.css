@@ -31,7 +31,7 @@ a
     color: white;
     background-color: tomato;
     border: 2px silver solid;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 50px 50px 50px 50px;
     box-shadow: 3px 3px 4px black;
     line-height: 50px;
         
@@ -41,4 +41,22 @@ img
 {
     display: block;
     margin: auto;
+    border-radius: 30px; 
+    width: 80%;
+}
+table
+{
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+th
+{
+    background-color: tomato;
+    color: white;
+}
+
+a:hover
+{
+ color: crimson;   
 }
