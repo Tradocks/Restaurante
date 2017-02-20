@@ -1,0 +1,53 @@
+
+<html>
+    <head>
+        <title>Restaurante La Esquina</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Pedidos</h1>
+        <h2>Registre su pedido</h2>
+        <hr>
+        <nav>
+            <a href="index.html"> Inicio </a>
+            <a href="platos.html"> Platos </a>
+            <a href="pedidos.html"> Pedidos </a>
+            <a href="#"> Sucursales </a>
+        </nav>
+        <form id="frmpedido">
+            <label>Cédula</label>
+            <input type="number" min="0" name="txtced" required><br>
+            <label>Nombre cliente</label>
+            <input type="text" name="txtnam" required maxlength="30" class="rojo"><br>
+            <label>Correo</label>
+            <input type="email" name="txtma" required><br>
+            <label>Direccion</label>
+            <input type="text" name="txtdir" required><br>
+            <label>Fecha de registro</label>
+            <input type="date" name="txtfec" required><br>
+            <label>Plato fuerte</label>
+            <input type="number" min="0" max="100" step="2" name="xtxc1" required>
+            <select name="lstpf">
+                <option value="1">Bandeja</option>
+                <option value="2">Torta</option>
+                <option value="3">Pollo</option>
+            </select><br>
+            <label>Acompañamiento</label>
+            <input type="number" min="0" max="100" step="2" name="xtxc2" required>            
+            <select name="lstpa">
+                <option value="1">Pastel</option>
+                <option value="2">Chunchullo</option>
+                <option value="3">Ensalada</option>
+            </select><br>
+            <label>Forma de pago:</label>
+            Efectivo <input type="radio" name="optfor" value="E" checked>
+            T. Debiot<input type="radio" name="optfor" value="D">
+            T. credito<input type="radio" name="optfor" value="C">
+            <hr>
+            <input type="submit" value="Solicitar pedido"> 
+            <input type="reset" value="Limpiar">
+        </form>
+           <link rel="stylesheet" type="text/css" href="css/Estilo1.css"> 
+    </body>
+</html>

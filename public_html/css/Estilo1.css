@@ -60,3 +60,32 @@ a:hover
 {
  color: crimson;   
 }
+
+#frmpedido
+{
+    width: 80%;
+    border: 4px black solid;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    background-color: burlywood;
+}
+
+label
+{
+    display: inline-block;
+    width: 130px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+entradas
+{
+    border: 1px coral solid;
+    margin: 10px;
+}
+
+entradas focus
+{
+    background-color: sienna;
+}
